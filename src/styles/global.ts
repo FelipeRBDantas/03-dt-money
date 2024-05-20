@@ -13,6 +13,11 @@ export const GlobalStyle = createGlobalStyle`
     box-shadow: 0 0 0 2px ${(props) => props.theme["green-500"]};
   }
 
+  ::selection {
+    background-color: ${(props) => props.theme["green-opacity-100"]};
+    color: ${(props) => props.theme.white};
+}
+
   body {
     background: ${(props) => props.theme["gray-800"]};
     color: ${(props) => props.theme["gray-100"]};
