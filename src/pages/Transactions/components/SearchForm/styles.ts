@@ -37,13 +37,13 @@ export const SearchFormContainer = styled.form`
       transition: background-color 0.2s, color 0.2s, border-color 0.2s;
     }
 
-    /* &:disabled {
+    &:disabled {
       opacity: 0.6;
       cursor: not-allowed;
     }
 
     &:not(:disabled):hover {
       background: ${props => props.theme["green-700"]};
-    } */
+    }
   }
 `
